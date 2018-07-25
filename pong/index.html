@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pong</title>
+    <style>
+        #screen {
+            background-color: black;
+            color: whitesmoke;
+            height: 600px;
+            width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .paddle{
+            background-color: whitesmoke;
+            width: 50px;
+            height: 200px;
+            position: absolute;
+        }
+
+        #paddle-left {
+            left: 50px;
+        }
+
+        #paddle-right{
+            right: 50px;
+        }
+
+        #net{
+            border: 5px whitesmoke;
+            border-style: dashed;
+            height: 600px;
+            position: absolute;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="screen">
+        <div id="paddle-left" class="paddle"></div>
+        <div id="left-score" class="score"></div>
+        <div id="ball"></div>
+        <div id="net"></div>
+        <div id="right-score" class="score"></div>
+        <div id="paddle-right" class="paddle"></div>
+    </div>
+</body>
+</html>
